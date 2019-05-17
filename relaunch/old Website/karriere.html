@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head> <!-- Das head Element hat beinhaltet nur metadaten und allgemeine Voreinstellungen -->
+	<meta charset="utf-8"> <!-- Zeichensatz für Deutschland einstellen -->
+	<meta name="viewport" content="width=device-width"> <!-- Einstellung der Bildschirmbreiten-Erkennung -->
+	<title>Physiotherapie-Steffi Ketelsen</title> <!-- Titel der im Browser-Tab erscheint -->
+	<link rel="stylesheet" type="text/css" href="css/karriere.css"> <!-- Verknüpfung mit dem CSS-Dokument -->
+	<link rel="icon" type="image/x-icon" href="dateien/bilder/ico.ico"> <!-- Icon das im Brower-Tab erscheint -->	
+	<link rel="stylesheet" type="text/css" href="print/karriere.css" media="print">
+</head> <!-- Ende des head-Elements -->
+<body> <!-- Anfang des body Elements: Inhalt der Website -->
+	<div class="wrapper"> <!-- "Umrandung" des Websiten-Inhalt -->
+	<header>		 <!-- Kopfzeile Anfang -->
+		<a id="homelogo" href="index.html"><img id="logo" src="dateien/bilder/ketelsen logo.png" alt="Bitte laden Sie die Seite erneut!"></a><!--Hauptlogo bei großer Ansicht -->
+		<a id="homelogomobile" href="index.html"><img id="logomobile" src="dateien/bilder/ketelsen invert.png" alt="Bitte laden Sie die Seite erneut!"></a>	<!-- Logo das nur bei den drei kleineren ansichten auftaucht -->	
+<!-- Bürgermenü Anfang -->		
+		<nav role="navigation" id="burgermenu"> 		<!--Burgermenu/Nebennavigation bei kleineren Ansichten -->	
+			<div id="menuToggle">
+   				<input type="checkbox" />
+    			<span></span>	<!-- drei Striche die als "Hamburger" auftauchen -->
+    			<span></span>	<!-- // -->
+    			<span></span>    
+    			<ul id="menu">
+        			<a href="index.html"><li>Home</li></a>        			
+					<div class="dropdown">
+						<a><li class="drop" id="dropopu">Unser Team &#8227</li></a>
+		      			<div class="dropdown-content">
+                        	<a class="droppoint" href="ueberuns.html">Über Uns</a>                        	
+                        	<a class="droppoint" href="karriere.html">Karriere</a>
+               			</div>
+					</div>		
+					<div class="dropdown">
+						<a><li class="drop" id="dropopl">Unsere Leistungen &#8227</li></a>
+		      			<div class="dropdown-content">
+                        	<a class="droppoint" href="angebot.html">Leistungen</a> 
+							<a class="droppoint" href="preise.html">Preise</a>
+                        	<a class="droppoint" href="sonderangebote.html">Sonderangebote</a>
+               			</div>
+					</div>				
+					<div class="dropdown">
+        				<a><li class="drop" id="dropopup">Unsere Praxis &#8227</li></a>
+			 			<div class="dropdown-content">
+                        	<a class="droppoint" href="anfahrt.html">Anfahrt</a>
+                        	<a class="droppoint" href="oeffnungszeiten.html">Öffnungszeiten</a>
+                        	<a class="droppoint" href="bildgalerie.html">Bildergalerie</a>							  
+                       		<a class="droppoint" href="wissenswertes.html">Wissenswertes</a>
+                		</div>
+					</div>		
+        			<a href="kontakt.html"><li>Kontakt</li></a>		
+					<div class="dropdown">
+        				<a><li class="drop" id="dropops">Sonstiges &#8227</li></a>
+						<div class="dropdown-content">
+                        	<a class="droppoint" href="datenschutz.html">Datenschutz</a>
+					  		<a class="droppoint" href="sitemap.html">Sitemap</a>
+							<a class="droppoint" href="impressum.html">Impressum</a>
+               			</div>
+					</div>
+   				</ul>
+  			</div>
+		</nav>  	
+<!-- Bürgermenu Ende -->		
+<!-- Normales Menü Anfang -->		
+		<div class="normnav">
+		<ul id="navigation">
+			<li><a href="index.html" id="ahome">Home</a></li>
+				<div class="dropdown">
+            <li><a href="" id="aueberuns">Unser Team &#8227 </a></li>
+                  <div class="dropdown-content">
+                        <a class="droppoint" href="ueberuns.html">Über Uns</a>
+					  <hr class="menutrennung" width="80%">                  
+                        <a class="droppoint" href="karriere.html">Karriere</a>
+                </div>
+            </div>			
+			<div class="dropdown">
+            <li><a href="" id="aleistungen">Unsere Leistungen &#8227 </a></li>
+                  <div class="dropdown-content">
+                        <a class="droppoint" href="angebot.html">Leistungen</a>
+					  <hr class="menutrennung" width="80%">
+					  	<a class="droppoint" href="preise.html">Preise</a>
+					  <hr class="menutrennung" width="80%">                  
+                        <a class="droppoint" href="sonderangebote.html">Sonderangebote</a>					   
+                </div>
+            </div>	
+			<div class="dropdown">
+            <li><a href="" id="apraxis">Unsere Praxis &#8227</a></li>
+                  <div class="dropdown-content">
+                        <a class="droppoint" href="anfahrt.html">Anfahrt</a>
+					  <hr class="menutrennung" width="80%">
+                        <a class="droppoint" href="oeffnungszeiten.html">Öffnungszeiten</a>
+					  <hr class="menutrennung" width="80%">
+                        <a class="droppoint" href="bildgalerie.html">Bildergalerie</a>
+					  <hr class="menutrennung" width="80%">
+                        <a class="droppoint" href="wissenswertes.html">Wissenswertes</a>
+                </div>
+            </div>			
+			<li><a href="kontakt.html" id="akontakt">Kontakt</a></li>
+			<div class="dropdown">
+            <li><a href="" id="aimpressum">Sonstiges &#8227</a></li>
+                  <div class="dropdown-content">
+                        <a class="droppoint" href="datenschutz.html">Datenschutz</a>
+					  <hr class="menutrennung" width="80%">
+					  	<a class="droppoint" href="sitemap.html">Sitemap</a>
+					  <hr class="menutrennung" width="80%">
+					  	<a class="droppoint" href="impressum.html">Impressum</a>
+                </div>
+            </div>
+			<div id="facebooklogo">
+				<a id="afacebook" href="https://www.facebook.com/Physio-Siek-135176237270403/?pnref=about.work"><img id="facebook" src="dateien/bilder/facebook.png" alt="Bitte laden sie die Seite erneut!"></a>
+			</div>	
+		</ul>
+		</div>	
+		<hr id="headerline"> 
+	</header> <!-- Kopfzeile Ende -->
+	<main>
+	<!-- Beginn Webseiten Inhalt -->
+	<!-- !!!!!!!!!!!!!!!!!!!!!!! -->
+		<div id="mainst">
+			<h1>Karriere</h1>
+			<h2>Stellenangebote:</h2>
+			<p class="allgtxt">Sie möchten Ihren Beruf gerne in einem sympatischen und professionellen Team ausüben? Dann sind Sie bei uns richtig! Derzeit suchen wir:</p>
+			<div id="stelle">
+				<h3>Physiotherapeut (m/w)</h3>
+				<p class="headtxt">Ihre Aufgaben</p>
+				<ul class="list1">
+					<li>Manuelle Therapie oder</li>
+					<li>Bobath/PNF oder</li>
+					<li>Lymphdrainage oder</li>
+					<li>KG Gerät</li>
+				</ul>
+				<p class="headtxt">Ihr Profil</p>
+				<ul class="list1">
+					<li>abgeschlossene Berufsausbildung als Physiotherapeut/in</li>
+					<li>ganzheitliches Denken</li>
+					<li>Teamgeist, Engagement, selbstständiges und eigenverantwortliches Denken</li>
+					<li>PKW-Führerschein</li>
+				</ul>
+				<p class="headtxt">Was wir bieten</p>
+				<ul class="list1">
+					<li>eine anspruchsvolle und attraktive Tätigkeit</li>
+					<li>ein angenehmes Arbeitsklima</li>
+					<li>eine leistungsgerechte Dotierung</li>
+					<li>Fortbildungen</li>
+				</ul>
+				<p class="allgtxt">Sie fühlen sich angesprochen? Dann schicken Sie bitte Ihre vollständigen Bewerbungsunterlagen an:</p>
+				<ul id="kontaktdt">
+					<li>Praxis für Physiotherapie</li>
+					<li>z.H. Steffi Ketelsen</li>
+					<li>Hauptstraße 47</li>
+					<li>22962 Siek</li>
+				</ul>
+			</div>
+		</div> 
+	<!-- Ende Webseiten Inhalt -->
+	<!-- !!!!!!!!!!!!!!!!!!!!! -->	
+		<div id="fuscontainer">
+			<div id="fuslogo">
+				<img id="logofus" alt="Bitte laden Sie die Seite erneut!" src="dateien/bilder/ketelsen fuslogo .png">
+				<p id="logotxt">Wer loslässt, hat die Hände frei.</p>
+			</div>
+			<div id="fusdaten">
+				<h5>Anschrift und Kontakt</h5>
+				<p id="adresse">Hauptstraße 47</p>
+				<p id="plzort">22962 Siek</p>
+				<p id="tel">Tel. 04107 / 37 40 224</p>
+				<p id="fax">Fax. 04107 / 37 49 225</p>
+				<p id="email">info@physio-siek.de</p>
+			</div>
+			<div id="fuszeiten">
+				<h5>Terminzeiten</h5>
+				<p>Montag: 07:25-20:00</p>
+				<p>Dienstag: 07:25-20:00</p>
+				<p>Mittwoch: 07:25-20:00</p>
+				<p>Donnerstag 07:25-20:00</p>
+				<p>Freitag: 07:25-20:00</p>
+			</div>
+		</div>
+		<div id="divhaftung">
+			<ul id="haftung">
+				<li class="haft"><a id="aimpressumfoot" href="impressum.html">Impressum &#124; </a></li>
+				<li class="haft"><a id="adatenschutzfoot" href="datenschutz.html">Datenschutz &#124; </a></li>
+				<li class="haft"><a id="akontaktfoot" href="kontakt.html">Kontakt &#124; </a></li>
+				<li class="haft"><a id="asitemap" href="sitemap.html">Sitemap &#124; </a></li>
+				<li class="haft"><a id="akarriere" href="karriere.html">Karriere</a></li>
+			</ul>
+			<p id="copyright">Copyright &copy; 2018</p>
+		</div>
+	</main>
+	<footer>		
+	</footer>
+	</div>	
+</body>
+</html>

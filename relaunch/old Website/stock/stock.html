@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head> <!-- Das head Element hat beinhaltet nur metadaten und allgemeine Voreinstellungen -->
+<meta charset="utf-8"> <!-- Zeichensatz für Deutschland einstellen -->
+<meta name="viewport" content="width=device-width"> <!-- Einstellung der Bildschirmbreiten-Erkennung -->
+<title>Physiotherapie-Steffi Ketelsen</title> <!-- Titel der im Browser-Tab erscheint -->
+<link rel="stylesheet" type="text/css" href="css/stock.css"> <!-- Verknüpfung mit dem CSS-Dokument -->
+<link rel="icon" type="image/x-icon" href="dateien/bilder/icon.ico"> <!-- Icon das im Brower-Tab erscheint -->
+<link href="https://fonts.googleapis.com/css?family=Questrial|Quicksand" rel="stylesheet"> <!-- implementierung der Google-Fonts schriftart -->
+<link type="text/css" rel="javascript" href="javascript.js"/>	<!-- Verknüpfung mit dem JavaScript-Dokument -->
+</head> <!-- Ende des head-Elements -->
+<body> <!-- Anfang des body Elements: Inhalt der Website -->
+	<div class="wrapper"> <!-- "Umrandung" des Websiten-Inhalt -->
+	<header>		 <!-- Kopfzeile Anfang -->
+		<a id="homelogo" href="stock.html"><img id="logo" src="dateien/bilder/ketelsen logo.png" alt="Bitte laden Sie die Seite erneut!"></a><!--Hauptlogo bei großer Ansicht -->
+		<a id="homelogomobile" href="stock.html"><img id="logomobile" src="dateien/bilder/ketelsen invert.png" alt="Bitte laden Sie die Seite erneut!"></a>	<!-- Logo das nur bei den drei kleineren ansichten auftaucht -->	
+<!-- Bürgermenü Anfang -->		
+		<nav role="navigation" id="burgermenu"> 		<!--Burgermenu/Nebennavigation bei kleineren Ansichten -->	
+			<div id="menuToggle">
+   				<input type="checkbox" />
+    			<span></span>	<!-- drei Striche die als "Hamburger" auftauchen -->
+    			<span></span>	<!-- // -->
+    			<span></span>    
+    			<ul id="menu">
+        			<a href="index.html"><li>Home</li></a>		
+        			<a href="ueberuns.html"><li>Über uns</li></a>		
+					<div class="dropdown">
+						<a><li>Leistungen &#8227</li></a>
+		      			<div class="dropdown-content">
+                        	<a class="droppoint" href="#">Angebot</a>
+                        	<a class="droppoint" href="#">Preise</a>
+                        	<a class="droppoint" href="#">Sonderangebote</a>
+               			</div>
+					</div>			
+					<div class="dropdown">
+        				<a><li>Unsere Praxis &#8227</li></a>
+			 			<div class="dropdown-content">
+                        	<a class="droppoint" href="#">Anfahrt</a>
+                        	<a class="droppoint" href="#">Öffnungszeiten</a>
+                        	<a class="droppoint" href="#">Bildergalerie</a>
+                		</div>
+					</div>		
+        			<a href="#"><li>Kontakt</li></a>		
+					<div class="dropdown">
+        				<a><li>Impressum &#8227</li></a>
+						<div class="dropdown-content">
+                        	<a class="droppoint" href="#">Datenschutz</a>
+					  		<a class="droppoint" href="#">Sitemap</a>
+               			</div>
+					</div>
+   				</ul>
+  			</div>
+		</nav>  	
+<!-- Bürgermenu Ende -->		
+<!-- Normales Menü Anfang -->		
+		<div class="normnav">
+		<ul id="navigation">
+			<li><a href="index.html" id="ahome">Home</a></li>
+			<li><a href="ueberuns.html" id="aueberuns">Über uns</a></li>			
+			<div class="dropdown">
+            <li><a href="#" id="aleistungen">Leistungen &#8227 </a></li>
+                  <div class="dropdown-content">
+                        <a class="droppoint" href="#">Angebot</a>
+					  <hr class="menutrennung" width="80%">
+                        <a class="droppoint" href="#">Preise</a>
+					  <hr class="menutrennung" width="80%">
+                        <a class="droppoint" href="#">Sonderangebote</a>
+                </div>
+            </div>	
+			<div class="dropdown">
+            <li><a href="#" id="apraxis">Unsere Praxis &#8227</a></li>
+                  <div class="dropdown-content">
+                        <a class="droppoint" href="#">Anfahrt</a>
+					  <hr class="menutrennung" width="80%">
+                        <a class="droppoint" href="#">Öffnungszeiten</a>
+					  <hr class="menutrennung" width="80%">
+                        <a class="droppoint" href="#">Bildergalerie</a>
+                </div>
+            </div>			
+			<li><a href="#" id="akontakt">Kontakt</a></li>
+			<div class="dropdown">
+            <li><a href="#" id="aimpressum">Impressum &#8227</a></li>
+                  <div class="dropdown-content">
+                        <a class="droppoint" href="#">Datenschutz</a>
+					  <hr class="menutrennung" width="80%">
+					  	<a class="droppoint" href="#">Sitemap</a>
+                </div>
+            </div>
+			<div id="facebooklogo">
+				<a id="afacebook" href="https://www.facebook.com/Physio-Siek-135176237270403/?pnref=about.work"><img id="facebook" src="dateien/bilder/facebook.png" alt="Bitte laden sie die Seite erneut!"></a>
+			</div>	
+		</ul>
+		</div>	
+		<hr id="headerline"> 
+	</header> <!-- Kopfzeile Ende -->
+	<main>				
+		<div id="fuscontainer">
+			<div id="fuslogo">
+				<img id="logofus" alt="Bitte laden Sie die Seite erneut!" src="dateien/bilder/ketelsen fuslogo .png">
+				<p id="logotxt">Wer loslässt, hat die Hände frei.</p>
+			</div>
+			<div id="fusdaten">
+				<h5>Anschrift und Kontakt</h5>
+				<p id="adresse">Hauptstraße 47</p>
+				<p id="plzort">22926 Siek</p>
+				<p id="tel">Tel. 04107 / 37 40 224</p>
+				<p id="fax">Fax. 04107 / 37 49 225</p>
+				<p id="email">info@physio-siek.de</p>
+			</div>
+			<div id="fuszeiten">
+				<h5>Terminzeiten</h5>
+				<p>Montag: 07:25-20:00</p>
+				<p>Dienstag: 07:25-20:00</p>
+				<p>Mittwoch: 07:25-20:00</p>
+				<p>Donnerstag 07:25-20:00</p>
+				<p>Freitag: 07:25-20:00</p>
+			</div>
+		</div>
+		<div id="divhaftung">
+			<ul id="haftung">
+				<li class="haft"><a id="aimpressumfoot" href="#">Impressum &#124; </a></li>
+				<li class="haft"><a id="adatenschutzfoot" href="#">Datenschutz &#124; </a></li>
+				<li class="haft"><a id="akontaktfoot" href="#">Kontakt &#124; </a></li>
+				<li class="haft"><a id="asitemap" href="#">Sitemap &#124; </a></li>
+				<li class="haft"><a id="akarriere" href="#">Karriere</a></li>
+			</ul>
+			<p id="copyright">Copyright &copy; 2018</p>
+		</div>
+	</main>
+	<footer>		
+	</footer>
+	</div>	
+</body>
+</html>

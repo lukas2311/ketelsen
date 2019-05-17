@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head> <!-- Das head Element hat beinhaltet nur metadaten und allgemeine Voreinstellungen -->
+	<meta charset="utf-8"> <!-- Zeichensatz für Deutschland einstellen -->
+	<meta name="viewport" content="width=device-width"> <!-- Einstellung der Bildschirmbreiten-Erkennung -->
+	<title>Über Uns | Steffi Ketelsen</title> <!-- Titel der im Browser-Tab erscheint -->
+	<link rel="stylesheet" type="text/css" href="css/ueberuns.css"> <!-- Verknüpfung mit dem CSS-Dokument -->
+	<link rel="stylesheet" type="text/css" href="print/ueberuns.css" media="print"> <!-- styleheet für die print-Ausgabe -->
+	<link rel="icon" type="image/x-icon" href="dateien/bilder/ico.ico"> <!-- Icon das im Brower-Tab erscheint -->
+</head> <!-- Ende des head-Elements -->
+<body> <!-- Anfang des body Elements: Inhalt der Website -->
+	<div class="wrapper"> <!-- "Umrandung" des Websiten-Inhalt -->
+	<header>		 <!-- Kopfzeile Anfang -->
+		<a id="homelogo" href="index.html"><img id="logo" src="dateien/bilder/ketelsen logo.png" alt="Bitte laden Sie die Seite erneut!"></a><!--Hauptlogo bei großer Ansicht -->
+		<a id="homelogomobile" href="index.html"><img id="logomobile" src="dateien/bilder/ketelsen invert.png" alt="Bitte laden Sie die Seite erneut!"></a>	<!-- Logo das nur bei den drei kleineren ansichten auftaucht -->	
+<!-- Bürgermenü Anfang -->		
+		<nav role="navigation" id="burgermenu"> 		<!--Burgermenu/Nebennavigation bei kleineren Ansichten -->	
+			<div id="menuToggle">
+   				<input type="checkbox" />
+    			<span></span>	<!-- drei Striche die als "Hamburger" auftauchen -->
+    			<span></span>	<!-- // -->
+    			<span></span>    
+    			<ul id="menu">
+        			<a href="index.html"><li>Home</li></a>        			
+					<div class="dropdown">
+						<a><li class="drop" id="dropopu">Unser Team &#8227</li></a>
+		      			<div class="dropdown-content">
+                        	<a class="droppoint" href="ueberuns.html">Über Uns</a>                        	
+                        	<a class="droppoint" href="karriere.html">Karriere</a>
+               			</div>
+					</div>		
+					<div class="dropdown">
+						<a><li class="drop" id="dropopl">Unsere Leistungen &#8227</li></a>
+		      			<div class="dropdown-content">
+                        	<a class="droppoint" href="angebot.html">Leistungen</a> 
+							<a class="droppoint" href="preise.html">Preise</a>
+                        	<a class="droppoint" href="sonderangebote.html">Sonderangebote</a>
+               			</div>
+					</div>				
+					<div class="dropdown">
+        				<a><li class="drop" id="dropopup">Unsere Praxis &#8227</li></a>
+			 			<div class="dropdown-content">
+                        	<a class="droppoint" href="anfahrt.html">Anfahrt</a>
+                        	<a class="droppoint" href="oeffnungszeiten.html">Öffnungszeiten</a>
+                        	<a class="droppoint" href="bildgalerie.html">Bildergalerie</a>							  
+                       		<a class="droppoint" href="wissenswertes.html">Wissenswertes</a>
+                		</div>
+					</div>		
+        			<a href="kontakt.html"><li>Kontakt</li></a>		
+					<div class="dropdown">
+        				<a><li class="drop" id="dropops">Sonstiges &#8227</li></a>
+						<div class="dropdown-content">
+                        	<a class="droppoint" href="datenschutz.html">Datenschutz</a>
+					  		<a class="droppoint" href="sitemap.html">Sitemap</a>
+							<a class="droppoint" href="impressum.html">Impressum</a>
+               			</div>
+					</div>
+   				</ul>
+  			</div>
+		</nav>  	
+<!-- Bürgermenu Ende -->		
+<!-- Normales Menü Anfang -->		
+		<div class="normnav">
+		<ul id="navigation">
+			<li><a href="index.html" id="ahome">Home</a></li>
+				<div class="dropdown">
+            <li><a href="" id="aueberuns">Unser Team &#8227 </a></li>
+                  <div class="dropdown-content">
+                        <a class="droppoint" href="ueberuns.html">Über Uns</a>
+					  <hr class="menutrennung" width="80%">                  
+                        <a class="droppoint" href="karriere.html">Karriere</a>
+                </div>
+            </div>			
+		<div class="dropdown">
+            <li><a href="" id="aleistungen">Unsere Leistungen &#8227 </a></li>
+                  <div class="dropdown-content">
+                        <a class="droppoint" href="angebot.html">Leistungen</a>
+					  <hr class="menutrennung" width="80%">
+					  	<a class="droppoint" href="preise.html">Preise</a>
+					  <hr class="menutrennung" width="80%">                  
+                        <a class="droppoint" href="sonderangebote.html">Sonderangebote</a>					   
+                </div>
+            </div>
+			<div class="dropdown">
+            <li><a href="" id="apraxis">Unsere Praxis &#8227</a></li>
+                  <div class="dropdown-content">
+                        <a class="droppoint" href="anfahrt.html">Anfahrt</a>
+					  <hr class="menutrennung" width="80%">
+                        <a class="droppoint" href="oeffnungszeiten.html">Öffnungszeiten</a>
+					  <hr class="menutrennung" width="80%">
+                        <a class="droppoint" href="bildgalerie.html">Bildergalerie</a>
+					   <hr class="menutrennung" width="80%">
+                        <a class="droppoint" href="wissenswertes.html">Wissenswertes</a>
+                </div>
+            </div>			
+			<li><a href="kontakt.html" id="akontakt">Kontakt</a></li>
+			<div class="dropdown">
+            <li><a href="" id="aimpressum">Sonstiges &#8227</a></li>
+                  <div class="dropdown-content">
+                        <a class="droppoint" href="datenschutz.html">Datenschutz</a>
+					  <hr class="menutrennung" width="80%">
+					  	<a class="droppoint" href="sitemap.html">Sitemap</a>
+					  <hr class="menutrennung" width="80%">
+					  	<a class="droppoint" href="impressum.html">Impressum</a>
+                </div>
+            </div>
+			<div id="facebooklogo">
+				<a id="afacebook" href="https://www.facebook.com/Physio-Siek-135176237270403/?pnref=about.work"><img id="facebook" src="dateien/bilder/facebook.png" alt="Bitte laden sie die Seite erneut!"></a>
+			</div>	
+		</ul>
+		</div>	
+		<hr id="headerline"> 
+	</header> <!-- Kopfzeile Ende -->
+	<main>	
+		<h1>Über Uns</h1>		
+		<div id="ketelsencontainer">
+			<img id="ketimg" alt="Bild von Steffi Ketelsen" src="dateien/bilder/steffi.jpeg">
+			<div id="kettxtcontainer">
+			<h3>Steffi Ketelsen</h3>
+			<p id="ketelsentxt1" class="kettxt">Hallo, mein Name ist Steffi Ketelsen, ich bin 47 Jahre alt und lebe mit meinem Mann seit 20 Jahren in Siek. Zusammen haben wir 4 Kinder.</p>
+			<p id="ketelsentxt2" class="kettxt">Viele kennen mich seit Jahren aus meiner kleinen Keller Praxis zuhause, jetzt aber nun seit Januar 2018 hier in diesen tollen, neuen Räumen.</p>
+			<p id="ketelsentxt3" class="kettxt">Mein Staatsexamen zur Krankengymnastin/Physiotherapeutin machte ich 1992, danach habe ich einige Zeit in verschiedenen Krankenhäusern Hamburgs und in Praxen in Ahrensburg, Großhansdorf und Rahlstedt gearbeitet.</p>
+			<p id="ketelsentxt4" class="kettxt">Zwischendurch bekamen wir unsere 4 Kinder, aber aufgehört habe ich eigentlich nie, so habe ich die letzten 17 Jahre bei Marett Carstensen, einer großen Praxis in Poppenbüttel gearbeitet.</p>
+			<p id="ketelsentxt5" class="kettxt">Meine Fortbildungen habe ich immer so gewählt, dass ich alle Krankheitsbilder ( außer Babys) behandeln darf/kann. Ich möchte jeden in meiner Praxis begrüßen dürfen. So dient die manuelle Therapie der Orthopädie, PNF aber eher der Neurologie, die manuelle Lymphdrainage lässt sich bei vielen Krankheitsbildern einsetzen. Viele Massagetechniken runden das Bild ab.</p>
+			<p id="ketelsentxt6" class="kettxt">Fragen Sie mich bitte, wenn Ihnen etwas auf Ihrem Rezept unklar ist.</p>
+			</div>
+		</div>
+		<div id="ketelsencontainer2">			
+			<div id="kettxtcontainer2">
+			<h4>Claudia Steinkamp</h4>
+			<p class="kettxt2">Hallo, mein Name ist Claudia Steinkamp. Ich habe 2003 meine Ausbildung zur Masseurin und medizinischen Bademeisterin erfolgreich beendet.</p>
+			<p class="kettxt2">Meine Tätigkeiten umfassten Massagen, Elektrotherapie, med. Bäder, Zertifugalmassage, BGM sowie Fussreflexzonenmassage.</p>
+			<p class="kettxt2">Ich arbeitete in Praxen, sowie auch in einer Kurklinik.</p>
+			<p class="kettxt2">Während dieser Zeit verfeinerte und festigte ich meine Techniken und nahm 2008 an der Fortbildung für Hot-Stone-Massage teil. Diese interessierte mich vor allen, da man sie für den therapeutischen, sowie auch den Wellness Bereich einsetzen kann.</p>
+			<p class="kettxt2">2009 absolvierte ich den Lehrgang für manuelle Lymphdrainage und übte diese intensiv aus, 2014 nahm ich an dem Update-u. Refresher-Lehrgang für Lymphologische Techniken zur Gelenkdrainage teil.</p>						
+			</div>
+			<img id="ketimg2" alt="Bild von Steffi Ketelsen" src="dateien/bilder/claudia.jpeg">
+		</div>	
+			 
+		<div id="fuscontainer">
+			<div id="fuslogo">
+				<img id="logofus" alt="Bitte laden Sie die Seite erneut!" src="dateien/bilder/ketelsen fuslogo .png">
+				<p id="logotxt">Wer loslässt, hat die Hände frei.</p>
+			</div>
+			<div id="fusdaten">
+				<h5>Anschrift und Kontakt</h5>
+				<p id="adresse">Hauptstraße 47</p>
+				<p id="plzort">22962 Siek</p>
+				<p id="tel">Tel. 04107 / 37 40 224</p>
+				<p id="fax">Fax. 04107 / 37 49 225</p>
+				<p id="email">info@physio-siek.de</p>
+			</div>
+			<div id="fuszeiten">
+				<h5>Terminzeiten</h5>
+				<p>Montag: 07:25-20:00</p>
+				<p>Dienstag: 07:25-20:00</p>
+				<p>Mittwoch: 07:25-20:00</p>
+				<p>Donnerstag 07:25-20:00</p>
+				<p>Freitag: 07:25-20:00</p>
+			</div>
+		</div>
+		<div id="divhaftung">
+			<ul id="haftung">
+				<li class="haft"><a id="aimpressumfoot" href="impressum.html">Impressum &#124; </a></li>
+				<li class="haft"><a id="adatenschutzfoot" href="datenschutz.html">Datenschutz &#124; </a></li>
+				<li class="haft"><a id="akontaktfoot" href="kontakt.html">Kontakt &#124; </a></li>
+				<li class="haft"><a id="asitemap" href="sitemap.html">Sitemap &#124; </a></li>
+				<li class="haft"><a id="akarriere" href="karriere.html">Karriere</a></li>
+			</ul>
+			<p id="copyright">Copyright &copy; 2018</p>
+		</div>
+	</main>
+	<footer>		
+	</footer>
+	</div>	
+</body>
+</html>

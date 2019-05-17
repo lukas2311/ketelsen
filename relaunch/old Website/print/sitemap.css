@@ -1,0 +1,247 @@
+body {		
+	text-align: center;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.wrapper {	
+	font-family: Arial;	
+}	
+/*Allgemeines*/
+    header{
+		width: 100%;		
+	}		
+	main {
+		padding-top: 5%;
+		background-color: #F3F2F2;
+		margin-bottom: 0;		
+	}   
+	main {
+		margin-left: auto;
+		margin-right: auto;		
+	}
+/*Allgemeines Ende */
+/*header Anfang */
+	#logo {
+		max-width: 55%;	
+        z-index: 3;
+	}	
+	#homelogomobile {
+		display: none;
+	}	
+	#facebooklogo {
+		margin-left: 5%;
+	}
+/*navigation */
+	#navigation {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		max-width: 100%;
+		background-color: #3aafbc;		
+		margin-bottom: 0;
+		margin-top: 0;
+		padding-top: 0.5%;
+		padding-bottom: 0.5%;
+        z-index: 3;
+	}
+	#navigation li {
+		list-style-type: none;		
+	}
+	#navigation a {
+		text-decoration: none;		
+		font-size: 90%
+	}
+	#ahome, #aueberuns, #aleistungen, #apraxis, #akontakt, #aimpressum  {
+        color: white;
+    }      
+    #ahome:hover, #aueberuns:hover, #aleistungen:hover, #apraxis:hover, #akontakt:hover, #aimpressum:hover  {
+        color: lightgrey;
+    } 
+    #ahome:focus, #aueberuns:active, #aleistungen:active, #apraxis:active, #akontakt:active, #aimpressum:active {
+        color: grey; 
+    }
+    #aueberuns, #aleistungen, #apraxis, #akontakt {
+        margin-left: 10px;
+        margin-right: 10px;
+    }       
+    #aimpressum {
+        margin-left: 30px;
+    }
+	 #ahome {
+        margin-right: 30px;
+    }	
+	#headerline {
+		display: none;
+	}
+	#burgermenu {
+		display: none;
+	}
+/*navigation Ende */    
+    normnav2 {                                   
+        position: absolute;
+        z-index: 5;
+        padding-top: 0px;
+        margin-top: 0px;
+        object-position: top;
+    	}    
+    #navigation2 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		max-width: 100%;
+		background-color: #3aafbc;		
+		margin-bottom: 0;
+		margin-top: 0;
+		padding-top: 0.5%;
+		padding-bottom: 0.5%;
+        z-index: 7;
+	}
+	#navigation2 li {
+		list-style-type: none;		
+	}
+	#navigation2 a {
+		text-decoration: none;		
+		font-size: 90%
+	}
+/*main styles */    
+	h1 {
+		text-align: justify;		
+		margin-right: 20%;
+		font-weight: 100;
+		color: #333333;
+		font-size: 150%;
+	}		
+	#mainst {
+		text-align: justify;
+		margin-left: 4%;
+	}
+	h5, h4, h3 {
+		text-align: justify;		
+		margin-right: 20%;
+		font-weight: 100;
+		color: #333333;
+		font-size: 150%;
+	}
+/* main styles Ende */
+/*Dropdown Menu*/    
+	.dropdown {
+   	 	position: relative;
+    	display: inline-block;		
+	}     
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        background-color: white;
+        margin-top:10px;
+        margin-left: 30px;
+        color: #3aafbc;
+		border-radius: 3px;	
+		padding-bottom: 5%;
+		box-shadow: -10px 10px 25px silver;
+    }     
+    .dropdown-content:last-child {
+        margin-bottom:10px;
+    }     
+    .dropdown-content a {
+    	color: #3aafbc; 
+    	text-decoration: none;
+    	display: block;
+   		margin-top: 10px;
+		padding-left: 5px;
+		padding-right: 5px;		
+    } 
+    .dropdown-content a:hover {
+        color: lightgrey;
+    }     
+    .dropdown-content a:active {
+        color: grey;
+    }     
+    .dropdown:hover .dropdown-content {
+        display: block;
+        transition: 0.2;
+    }  
+	.droppoint a {
+		color: #3aafbc;
+	} 
+	.drop {
+		cursor: auto;
+	}
+/*Dropdown Ende*/
+/*Underscore Animation*/    
+ 	a {
+    	position: relative;
+    	padding: 10px 0;
+    	line-height: 10px;
+    	transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+   		color: #3aafbc;
+	}
+	a::before {
+   		content: '';
+    	display: block;
+    	position: absolute;
+    	bottom: 10px;
+    	left: 0;
+    	height: 0.5px;
+    	width: 100%;
+    	background-color: lightgrey;
+    	transform: scale(0, 1);
+    	transition: color 1s,transform 1s ease-out;
+	}    
+	#navigation a:hover::before, a:focus::before {
+    	transform-origin: left top;
+    	transform: scale(1, 1);
+	} 	
+	/* footer styles */
+	#fuscontainer {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: left;
+		background-color: #277881;
+		padding-bottom: 1%;
+	}
+	#fuscontainer p  {
+		font-size: 80%;
+		line-height: 80%;
+		color: white;
+	}
+	#fuszeiten {
+		margin-left: 3%;
+	}	
+	#fuslogo {
+	width: 30%;
+	}
+	#logofus {
+	width: 100%;
+	}
+	h5 {
+		font-size: 100%;
+		color: white;
+	}
+	#asitemap, #akontaktfoot, #adatenschutzfoot, #akarriere {
+		margin-left: 5px;
+	}
+	#divhaftung {
+		background-color: #1C555A;
+		color: white;
+	}
+	#haftung {
+		margin-top: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-top: 1%;
+	}
+	#haftung li {
+		list-style-type: none;
+	}
+	#haftung a {
+		text-decoration: none;
+	}	
+	#copyright {
+		padding-bottom: 1%;
+		color: lightgray;
+	}
+/*footer styles Ende */
