@@ -1,5 +1,78 @@
-/* BREAKPOINTS */
-/* ------------------- */
+main {
+  padding-top: 5%;
+  background-color: #F3F2F2;
+  margin-bottom: 0;
+}
 
+main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* BREAKPOINTS */
+/*-----------------------------------------/
+/VARIABLES									/
+/------------------------------------------*/
+/* ------------------- */
+@media screen and (min-width: 1200px) {
+  header {
+    width: 100%;
+  }
+  header #homelogomobile {
+    display: none;
+  }
+  header #logo {
+    max-width: 35%;
+    z-index: 3;
+  }
+  header #headerline {
+    display: none;
+  }
+  header #burgermenu {
+    display: none;
+  }
+  header #navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    background-color: #3aafbc;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    z-index: 3;
+  }
+  header #navigation li {
+    list-style-type: none;
+  }
+  header #navigation li a {
+    text-decoration: none;
+    font-size: 130%;
+  }
+  header #navigation li #ahome, header #navigation li #aueberuns, header #navigation li #aleistungen, header #navigation li #apraxis, header #navigation li #akontakt, header #navigation li #aimpressum {
+    color: white;
+    cursor: pointer;
+  }
+  header #navigation li #ahome:hover, header #navigation li #aueberuns:hover, header #navigation li #aleistungen:hover, header #navigation li #apraxis:hover, header #navigation li #akontakt:hover, header #navigation li #aimpressum:hover {
+    color: lightgrey;
+  }
+  header #navigation li #ahome:active, header #navigation li #akontakt:active {
+    color: grey;
+  }
+  header #navigation li #aueberuns, header #navigation li #aleistungen, header #navigation li #apraxis, header #navigation li #akontakt {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  header #navigation li #aimpressum {
+    margin-left: 30px;
+  }
+  header #navigation li #ahome {
+    margin-right: 30px;
+  }
+  header #navigation #facebooklogo {
+    margin-left: 5%;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
