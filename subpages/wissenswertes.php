@@ -2,14 +2,15 @@
 <html>
 	<head>
 		<?php
+			$rel_path = "../";
 			$page_title = "Startseite";
-			include("layout/head.php")
+			include($rel_path . "layout/head.php")
 		?>
 	</head>
 	<body>
 		<?php 
-			$rel_path = "";
-			include("layout/header.php");
+			$rel_path = "../";
+			include($rel_path . "layout/header.php");
 		?>
 <!----------------------------------------------------------->
 	<!-- CONTENT HERE -->
@@ -21,7 +22,7 @@
 <!----------------------------------------------------------->		
 		
 		<?php 
-			include("layout/footer.php");
+			include($rel_path . "layout/footer.php");
 		?>
 	</body>	
 </html>
