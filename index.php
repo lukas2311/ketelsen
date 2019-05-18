@@ -2,13 +2,13 @@
 <html>
 	<head>
 		<?php
+			$rel_path = "";
 			$page_title = "Startseite";
 			include("layout/head.php");
 		?>
 	</head>
 	<body>
 		<?php 
-			$rel_path = "";
 			include("layout/header.php");
 		?>
 <!----------------------------------------------------------->
