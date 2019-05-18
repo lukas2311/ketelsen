@@ -1,12 +1,11 @@
-	<header>		 <!-- Kopfzeile Anfang -->
-		<a id="homelogo" href="index.html"><img id="logo" src="dateien/bilder/ketelsen logo.png" alt="Bitte laden Sie die Seite erneut!"></a><!--Hauptlogo bei großer Ansicht -->
-		<a id="homelogomobile" href="index.html"><img id="logomobile" src="dateien/bilder/ketelsen invert.png" alt="Bitte laden Sie die Seite erneut!"></a>	<!-- Logo das nur bei den drei kleineren ansichten auftaucht -->	
-<!-- Bürgermenü Anfang -->		
-		<nav role="navigation" id="burgermenu"> 		<!--Burgermenu/Nebennavigation bei kleineren Ansichten -->	
+	<header>		
+		<a id="homelogo" href="index.html"><img id="logo" src="<?php echo($rel_path); ?>data/images/ketelsen logo.png" alt="Bitte laden Sie die Seite erneut!"></a>
+		<a id="homelogomobile" href="index.html"><img id="logomobile" src="<?php echo($rel_path); ?>data/images/ketelsen invert.png" alt="Bitte laden Sie die Seite erneut!"></a>
+		<nav role="navigation" id="burgermenu"> 			
 			<div id="menuToggle">
    				<input type="checkbox" />
-    			<span></span>	<!-- drei Striche die als "Hamburger" auftauchen -->
-    			<span></span>	<!-- // -->
+    			<span></span>	
+    			<span></span>	
     			<span></span>    
     			<ul id="menu">
         			<a class="undln" href="index.html"><li>Home</li></a>        			
@@ -21,6 +20,7 @@
 						<a class="undln"><li class="drop" id="dropopl">Unsere Leistungen &#8227</li></a>
 		      			<div class="dropdown-content">
                         	<a class="droppoint" href="angebot.html">Leistungen</a> 
+                        	<a class="droppoint" href="">Kurse</a>
 							<a class="droppoint" href="preise.html">Preise</a>
                         	<a class="droppoint" href="sonderangebote.html">Sonderangebote</a>
                			</div>
@@ -93,7 +93,7 @@
                 </div>
             </div>
 			<div id="facebooklogo">
-				<a id="afacebook" href="https://www.facebook.com/Physio-Siek-135176237270403/?pnref=about.work"><img id="facebook" src="dateien/bilder/facebook.png" alt="Bitte laden sie die Seite erneut!"></a>
+				<a id="afacebook" href="https://www.facebook.com/Physio-Siek-135176237270403/?pnref=about.work"><img id="facebook" src="<?php echo($rel_path);?>data/images/facebook.png" alt="Bitte laden sie die Seite erneut!"></a>
 			</div>	
 		</ul>
 		</div>	

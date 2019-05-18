@@ -16,7 +16,7 @@
 	<main>	
 		<h1>Herzlich Willkommen</h1>
 		<div id="maincontainer">		
-			<img id="mainpic" alt="Bild von Steffi Ketelsen" src="dateien/bilder/indexpct.png">
+			<img id="mainpic" alt="Bild von Steffi Ketelsen" src="<dateien/bilder/indexpct.png">
 			<div>				
 				<p id="willkommentext">...auf der neuen Seite von Physio-Siek!<br><br>Ich habe mir im Januar 2018 hier im alten Bäcker, neben der Traube, einen Traum erfüllt und möchte Sie in den ganz neu gestalteten Räumen herzlich begrüßen. Auf den folgenden Seiten möchte ich Ihnen einen kleinen Einblick in meine Praxis geben, Sie darüber informieren, was wir alles leisten und immer mal wieder mit neuen Angeboten überraschen.<br>Es gibt nichts, was es nicht gibt, bitte scheuen Sie sich nicht mich anzusprechen, persönlich, am Telefon oder per Mail.<br><br><br>Viel Spaß beim Stöbern und bis bald<br><br>Ihre Steffi Ketelsen</p>	
 			</div>	
