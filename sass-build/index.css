@@ -2,11 +2,21 @@ main {
   padding-top: 5%;
   background-color: #F3F2F2;
   margin-bottom: 0;
-}
-
-main {
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  main {
+    padding-top: 40%;
+    background-color: white;
+    /*#F3F2F2 */
+  }
+}
+@media screen and (max-width: 400px) {
+  main {
+    background-color: white;
+    /*#F3F2F2 */
+  }
 }
 
 body {
@@ -14,6 +24,16 @@ body {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  body {
+    width: 98%;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    width: 100%;
+  }
 }
 
 html {
@@ -25,6 +45,9 @@ html {
 /VARIABLES									/
 /------------------------------------------*/
 /* ------------------- */
+header {
+  width: 100%;
+}
 @media screen and (min-width: 1200px) {
   header a {
     position: relative;
@@ -39,18 +62,34 @@ html {
     position: fixed;
     top: 0;
     z-index: 100;
-    width: 100%;
     background-color: #3aafbc;
-  }
-}
-@media screen and (min-width: 1200px) {
-  header {
-    width: 100%;
   }
 }
 @media screen and (min-width: 1200px) {
   header #homelogomobile {
     display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  header #homelogomobile #logomobile {
+    margin-right: 12%;
+    margin-top: 3%;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  header #homelogomobile #logomobile {
+    width: 35%;
+    padding-right: 10%;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  header #homelogomobile #logomobile {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 400px) {
+  header #homelogomobile #logomobile {
+    width: 60%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -59,9 +98,19 @@ html {
     z-index: 3;
   }
 }
+@media screen and (max-width: 1200px) {
+  header #logo {
+    display: none;
+  }
+}
 @media screen and (min-width: 1200px) {
   header #headerline {
     display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header #headerline {
+    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -78,6 +127,147 @@ html {
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  header #burgermenu #menuToggle #dropopu, header #burgermenu #menuToggle #dropopl, header #burgermenu #menuToggle #dropopup, header #burgermenu #menuToggle #dropops {
+    color: #212124;
+    text-align: left;
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header #burgermenu #menuToggle #menu {
+    padding: 50px;
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 0;
+    padding-top: 125px;
+    padding-bottom: 1000px;
+    right: -100px;
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  }
+}
+@media screen and (max-width: 400px) {
+  header #burgermenu #menuToggle #menu li {
+    padding: 10px;
+    padding-bottom: 0;
+    font-size: 100%;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 1200px) {
+  header #burgermenu #menuToggle #menu li {
+    padding: 10px 0;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header #burgermenu #menuToggle #menu a {
+    text-decoration: none;
+    color: #3aafbc;
+    transition: color 0.3s ease;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header #burgermenu #menuToggle #menu a:hover {
+    color: #212124;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header #burgermenu #menuToggle #menu .dropdown {
+    position: relative;
+  }
+}
+@media screen and (max-width: 400px) {
+  header #burgermenu #menuToggle #menu .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 1200px) {
+  header #burgermenu #menuToggle #menu .dropdown:hover .dropdown-content {
+    display: block;
+    transition: 0.2;
+  }
+}
+@media screen and (min-width: 1200px) {
+  header #burgermenu #menuToggle #menu .dropdown .drop {
+    cursor: auto;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 1200px) {
+  header #burgermenu #menuToggle #menu .dropdown .drop {
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  header #burgermenu #menuToggle #menu .dropdown .drop {
+    font-size: 180%;
+  }
+}
+header #burgermenu #menuToggle #menu .dropdown .dropdown-content:last-child {
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 1200px) {
+  header #burgermenu #menuToggle #menu .dropdown .dropdown-content {
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: left;
+    margin-left: 25%;
+    color: #3aafbc;
+  }
+}
+header #burgermenu #menuToggle #menu .dropdown .dropdown-content .droppoint {
+  color: #3aafbc;
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  header #burgermenu #menuToggle #menu .dropdown .dropdown-content a {
+    margin-top: 10px;
+    font-size: 115%;
+  }
+}
+@media screen and (max-width: 400px) {
+  header #burgermenu #menuToggle #menu .dropdown .dropdown-content a {
+    padding-left: 5px;
+    font-size: 90%;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  header #burgermenu #menuToggle #menu .dropdown .dropdown-content a {
+    margin-top: 10px;
+    font-size: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header #burgermenu #menuToggle #menu .dropdown .dropdown-content a {
+    color: #3aafbc;
+    text-decoration: none;
+    display: block;
+    padding-right: 5px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header #burgermenu #menuToggle #menu .dropdown .dropdown-content a:hover {
+    color: #212124;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header #burgermenu #menuToggle #menu .dropdown .dropdown-content a:active {
+    color: grey;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header #burgermenu #menuToggle input:checked ~ ul {
+    transform: scale(1, 1);
+    opacity: 1;
   }
 }
 @media screen and (min-width: 800px) and (max-width: 1200px) {
@@ -105,28 +295,14 @@ html {
   }
 }
 @media screen and (max-width: 1200px) {
-  header #burgermenu #menuToggle input:checked ~ ul {
-    transform: scale(1, 1);
-    opacity: 1;
-  }
-}
-@media screen and (max-width: 1200px) {
   header #burgermenu #menuToggle input:checked ~ span:nth-last-child(2) {
     opacity: 1;
     transform: rotate(-45deg) translate(0, -1px);
   }
 }
-@media screen and (max-width: 800px) {
-  header #burgermenu #menuToggle input:checked ~ span:nth-last-child(3) {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-  }
-}
-@media screen and (min-width: 800px) and (max-width: 1200px) {
-  header #burgermenu #menuToggle input:checked ~ span:nth-last-child(3) {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-  }
+header #burgermenu #menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
 }
 @media screen and (max-width: 1200px) {
   header #burgermenu #menuToggle input:checked ~ span {
@@ -183,6 +359,22 @@ html {
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     z-index: 3;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  header #navigation #facebook {
+    width: 3%;
+    margin-right: 8%;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  header #navigation #facebook {
+    width: 5%;
+  }
+}
+@media screen and (max-width: 400px) {
+  header #navigation #facebook {
+    width: 6%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -293,244 +485,6 @@ html {
   header #navigation .dropdown:hover .dropdown-content {
     display: block;
     transition: 0.2;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .droppoint a {
-    color: #3aafbc;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .drop {
-    cursor: auto;
-  }
-}
-
-@media screen and (min-width: 400px) and (max-width: 1200px) {
-  .drop {
-    color: black;
-    text-align: left;
-    margin-left: 20px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .dropdown {
-    position: relative;
-  }
-}
-@media screen and (max-width: 400px) {
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-}
-@media screen and (max-width: 800px) {
-  .dropdown:hover .dropdown-content {
-    transition: 0.2;
-  }
-}
-@media screen and (min-width: 800px) and (max-width: 1200px) {
-  .dropdown:hover .dropdown-content {
-    display: block;
-    transition: 0.2;
-  }
-}
-
-@media screen and (min-width: 800px) and (max-width: 1200px) {
-  li.drop {
-    font-size: 180%;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .droppoint a {
-    color: #3aafbc;
-  }
-}
-
-@media screen and (min-width: 800px) and (max-width: 1200px) {
-  .dropdown-content:last-child {
-    margin-bottom: 10px;
-  }
-}
-@media screen and (max-width: 800px) {
-  .dropdown-content:last-child {
-    margin-bottom: 10px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .dropdown-content {
-    position: relative;
-    z-index: 1;
-    margin-top: 10px;
-    border-radius: 5px;
-    text-align: left;
-    margin-left: 25%;
-    color: #3aafbc;
-  }
-}
-@media screen and (min-width: 400px) and (max-width: 800px) {
-  .dropdown-content a {
-    margin-top: 10px;
-    font-size: 115%;
-  }
-}
-@media screen and (max-width: 400px) {
-  .dropdown-content a {
-    padding-left: 5px;
-    font-size: 90%;
-  }
-}
-@media screen and (min-width: 800px) and (max-width: 1200px) {
-  .dropdown-content a {
-    margin-top: 10px;
-    font-size: 100%;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .dropdown-content a {
-    color: #3aafbc;
-    text-decoration: none;
-    display: block;
-    padding-right: 5px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .dropdown-content a:hover {
-    color: #212124;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .dropdown-content a:active {
-    color: grey;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  #logo {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 800px) and (max-width: 1200px) {
-  #logomobile {
-    width: 35%;
-    padding-right: 10%;
-  }
-}
-@media screen and (min-width: 400px) and (max-width: 800px) {
-  #logomobile {
-    width: 65%;
-    margin-right: 12%;
-    margin-top: 3%;
-  }
-}
-@media screen and (max-width: 400px) {
-  #logomobile {
-    width: 60%;
-    margin-right: 12%;
-    margin-top: 3%;
-  }
-}
-
-@media screen and (min-width: 800px) and (max-width: 1200px) {
-  #facebook {
-    width: 3%;
-    margin-right: 8%;
-  }
-}
-@media screen and (min-width: 400px) and (max-width: 800px) {
-  #facebook {
-    width: 5%;
-  }
-}
-@media screen and (max-width: 400px) {
-  #facebook {
-    width: 6%;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  #headerline {
-    margin-bottom: 0;
-  }
-}
-
-@media screen and (min-width: 400px) and (max-width: 800px) {
-  body {
-    width: 98%;
-  }
-}
-@media screen and (max-width: 400px) {
-  body {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 400px) and (max-width: 800px) {
-  main {
-    padding-top: 40%;
-    background-color: white;
-    /*#F3F2F2 */
-  }
-}
-@media screen and (max-width: 400px) {
-  main {
-    background-color: white;
-    /*#F3F2F2 */
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  #menu {
-    padding: 50px;
-    position: absolute;
-    width: 300px;
-    margin: -100px 0 0 0;
-    padding-top: 125px;
-    padding-bottom: 1000px;
-    right: -100px;
-    background: #ededed;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    transform-origin: 0% 0%;
-    transform: translate(100%, 0);
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  }
-}
-@media screen and (max-width: 400px) {
-  #menu li {
-    padding: 10px;
-    padding-bottom: 0;
-    font-size: 100%;
-  }
-}
-@media screen and (min-width: 400px) and (max-width: 1200px) {
-  #menu li {
-    padding: 10px 0;
-    font-size: 22px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  #menu a {
-    text-decoration: none;
-    color: #3aafbc;
-    transition: color 0.3s ease;
-  }
-}
-@media screen and (max-width: 1200px) {
-  #menu a:hover {
-    color: #212124;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  #dropopu, #dropopl, #dropopup, #dropops {
-    color: #212124;
-    text-align: left;
-    margin-left: 40px;
   }
 }
 
