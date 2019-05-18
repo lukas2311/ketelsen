@@ -1,6 +1,6 @@
 	<header>		
-		<a id="homelogo" href="index.html"><img id="logo" src="<?php echo($rel_path); ?>data/images/ketelsen logo.png" alt="Bitte laden Sie die Seite erneut!"></a>
-		<a id="homelogomobile" href="index.html"><img id="logomobile" src="<?php echo($rel_path); ?>data/images/ketelsen invert.png" alt="Bitte laden Sie die Seite erneut!"></a>
+		<a id="homelogo" href="index.php"><img id="logo" src="<?php echo($rel_path); ?>data/images/ketelsen logo.png" alt="Bitte laden Sie die Seite erneut!"></a>
+		<a id="homelogomobile" href="index.php"><img id="logomobile" src="<?php echo($rel_path); ?>data/images/ketelsen invert.png" alt="Bitte laden Sie die Seite erneut!"></a>
 		<nav role="navigation" id="burgermenu"> 			
 			<div id="menuToggle">
    				<input type="checkbox" />
@@ -8,39 +8,39 @@
     			<span></span>	
     			<span></span>    
     			<ul id="menu">
-        			<a class="undln" href="index.html"><li>Home</li></a>        			
+        			<a class="undln" href="index.php"><li>Home</li></a>        			
 					<div class="dropdown">
 						<a class="undln"><li class="drop" id="dropopu">Unser Team &#8227</li></a>
 		      			<div class="dropdown-content">
-                        	<a class="droppoint" href="<?php echo($rel_path); ?>ueberuns.html">Über Uns</a>                        	
-                        	<a class="droppoint" href="karriere.html">Karriere</a>
+                        	<a class="droppoint" href="<?php echo($rel_path); ?> subpages/ueberuns.php">Über Uns</a>                        	
+                        	<a class="droppoint" href="<?php echo($rel_path); ?> subpages/karriere.php">Karriere</a>
                			</div>
 					</div>		
 					<div class="dropdown">
 						<a class="undln"><li class="drop" id="dropopl">Unsere Leistungen &#8227</li></a>
 		      			<div class="dropdown-content">
-                        	<a class="droppoint" href="angebot.html">Leistungen</a> 
+                        	<a class="droppoint" href="<?php echo($rel_path); ?> subpages/angebot.php">Leistungen</a> 
                         	<a class="droppoint" href="">Kurse</a>
-							<a class="droppoint" href="preise.html">Preise</a>
-                        	<a class="droppoint" href="sonderangebote.html">Sonderangebote</a>
+							<a class="droppoint" href="<?php echo($rel_path); ?> subpages/preise.php">Preise</a>
+                        	<a class="droppoint" href="<?php echo($rel_path); ?> subpages/sonderangebote.php">Sonderangebote</a>
                			</div>
 					</div>					
 					<div class="dropdown">
         				<a class="undln"><li class="drop" id="dropopup">Unsere Praxis &#8227</li></a>
 			 			<div class="dropdown-content">
-                        	<a class="droppoint" href="anfahrt.html">Anfahrt</a>
-                        	<a class="droppoint" href="oeffnungszeiten.html">Öffnungszeiten</a>
-                        	<a class="droppoint" href="bildgalerie.html">Bildergalerie</a>							  
-                       		<a class="droppoint" href="wissenswertes.html">Wissenswertes</a>
+                        	<a class="droppoint" href="<?php echo($rel_path); ?> subpages/anfahrt.php">Anfahrt</a>
+                        	<a class="droppoint" href="<?php echo($rel_path); ?> subpages/oeffnungszeiten.php">Öffnungszeiten</a>
+                        	<a class="droppoint" href="<?php echo($rel_path); ?> subpages/bildgalerie.php">Bildergalerie</a>							  
+                       		<a class="droppoint" href="<?php echo($rel_path); ?> subpages/wissenswertes.php">Wissenswertes</a>
                 		</div>
 					</div>		
-        			<a href="kontakt.html"><li>Kontakt</li></a>		
+        			<a href="kontakt.php"><li>Kontakt</li></a>		
 					<div class="dropdown">
         				<a><li class="drop" id="dropops">Sonstiges &#8227</li></a>
 						<div class="dropdown-content">
-                        	<a class="droppoint" href="datenschutz.html">Datenschutz</a>
-					  		<a class="droppoint" href="sitemap.html">Sitemap</a>
-							<a class="droppoint" href="impressum.html">Impressum</a>
+                        	<a class="droppoint" href="<?php echo($rel_path); ?> subpages/datenschutz.php">Datenschutz</a>
+					  		<a class="droppoint" href="<?php echo($rel_path); ?> subpages/sitemap.php">Sitemap</a>
+							<a class="droppoint" href="<?php echo($rel_path); ?> subpages/impressum.php">Impressum</a>
                			</div>
 					</div>
    				</ul>
@@ -50,46 +50,46 @@
 <!-- Normales Menü Anfang -->		
 		<div class="normnav">
 		<ul id="navigation">
-			<li><a href="index.html" id="ahome">Home</a></li>
+			<li><a href="index.php" id="ahome">Home</a></li>
 			<div class="dropdown">
             <li><a href="" id="aueberuns">Unser Team &#8227 </a></li>
                   <div class="dropdown-content">
-                        <a class="droppoint" href="ueberuns.html">Über Uns</a>
+                        <a class="droppoint" href="<?php echo($rel_path); ?> subpages/ueberuns.php">Über Uns</a>
 					  <hr class="menutrennung" width="80%">                  
-                        <a class="droppoint" href="karriere.html">Karriere</a>
+                        <a class="droppoint" href="<?php echo($rel_path); ?> subpages/karriere.php">Karriere</a>
                 </div>
             </div>				
 			<div class="dropdown">
             <li><a href="" id="aleistungen">Unsere Leistungen &#8227 </a></li>
                   <div class="dropdown-content">
-                        <a class="droppoint" href="angebot.html">Leistungen</a>
+                        <a class="droppoint" href="<?php echo($rel_path); ?> subpages/angebot.php">Leistungen</a>
 					  <hr class="menutrennung" width="80%">
-					  	<a class="droppoint" href="preise.html">Preise</a>
+					  	<a class="droppoint" href="<?php echo($rel_path); ?> subpages/preise.php">Preise</a>
 					  <hr class="menutrennung" width="80%">                  
-                        <a class="droppoint" href="sonderangebote.html">Sonderangebote</a>					   
+                        <a class="droppoint" href="<?php echo($rel_path); ?> subpages/sonderangebote.php">Sonderangebote</a>					   
                 </div>
             </div>	
 			<div class="dropdown">
             <li><a href="" id="apraxis">Unsere Praxis &#8227</a></li>
                   <div class="dropdown-content">
-                        <a class="droppoint" href="anfahrt.html">Anfahrt</a>
+                        <a class="droppoint" href="<?php echo($rel_path); ?> subpages/anfahrt.php">Anfahrt</a>
 					  <hr class="menutrennung" width="80%">
-                        <a class="droppoint" href="oeffnungszeiten.html">Öffnungszeiten</a>
+                        <a class="droppoint" href="<?php echo($rel_path); ?> subpages/oeffnungszeiten.php">Öffnungszeiten</a>
 					  <hr class="menutrennung" width="80%">
-                        <a class="droppoint" href="bildgalerie.html">Bildergalerie</a>
+                        <a class="droppoint" href="<?php echo($rel_path); ?> subpages/bildgalerie.php">Bildergalerie</a>
 					  <hr class="menutrennung" width="80%">
-                        <a class="droppoint" href="wissenswertes.html">Wissenswertes</a>
+                        <a class="droppoint" href="<?php echo($rel_path); ?> subpages/wissenswertes.php">Wissenswertes</a>
                 </div>
             </div>			
-			<li><a href="kontakt.html" id="akontakt">Kontakt</a></li>
+			<li><a href="<?php echo($rel_path); ?> subpages/kontakt.php" id="akontakt">Kontakt</a></li>
 			<div class="dropdown">
             <li><a href="" id="aimpressum">Sonstiges &#8227</a></li>
                   <div class="dropdown-content">
-                        <a class="droppoint" href="datenschutz.html">Datenschutz</a>
+                        <a class="droppoint" href="<?php echo($rel_path); ?> subpages/datenschutz.php">Datenschutz</a>
 					  <hr class="menutrennung" width="80%">
-					  	<a class="droppoint" href="sitemap.html">Sitemap</a>
+					  	<a class="droppoint" href="<?php echo($rel_path); ?> subpages/sitemap.php">Sitemap</a>
 					  <hr class="menutrennung" width="80%">
-					  	<a class="droppoint" href="impressum.html">Impressum</a>
+					  	<a class="droppoint" href="<?php echo($rel_path); ?> subpages/impressum.php">Impressum</a>
                 </div>
             </div>
 			<div id="facebooklogo">
