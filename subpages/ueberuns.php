@@ -17,7 +17,7 @@
 	<main>	
 		<h1>Über Uns</h1>		
 		<div id="ketelsencontainer">
-			<img id="ketimg" alt="Bild von Steffi Ketelsen" src="dateien/bilder/steffi.jpeg">
+			<img id="ketimg" alt="Bild von Steffi Ketelsen" src="<?php echo($rel_path); ?>data/images/steffi.jpeg">
 			<div id="kettxtcontainer">
 				<h3>Steffi Ketelsen</h3>
 				<p id="ketelsentxt1" class="kettxt">Hallo, mein Name ist Steffi Ketelsen, ich bin 47 Jahre alt und lebe mit meinem Mann seit 20 Jahren in Siek. Zusammen haben wir 4 Kinder.</p>
@@ -37,13 +37,10 @@
 				<p class="kettxt2">Während dieser Zeit verfeinerte und festigte ich meine Techniken und nahm 2008 an der Fortbildung für Hot-Stone-Massage teil. Diese interessierte mich vor allen, da man sie für den therapeutischen, sowie auch den Wellness Bereich einsetzen kann.</p>
 				<p class="kettxt2">2009 absolvierte ich den Lehrgang für manuelle Lymphdrainage und übte diese intensiv aus, 2014 nahm ich an dem Update-u. Refresher-Lehrgang für Lymphologische Techniken zur Gelenkdrainage teil.</p>						
 			</div>
-			<img id="ketimg2" alt="Bild von Steffi Ketelsen" src="dateien/bilder/claudia.jpeg">
+			<img id="ketimg2" alt="Bild von Steffi Ketelsen" src="<?php echo($rel_path); ?>data/images/claudia.jpeg">
 		</div>
 	</main>
-
-
 <!----------------------------------------------------------->		
-		
 		<?php 
 			include($rel_path . "layout/footer.php");
 		?>

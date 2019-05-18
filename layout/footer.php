@@ -1,6 +1,6 @@
 <div id="fuscontainer">
 	<div id="fuslogo">
-		<img id="logofus" alt="Bitte laden Sie die Seite erneut!" src="dateien/bilder/ketelsen fuslogo .png">
+		<img id="logofus" alt="Bitte laden Sie die Seite erneut!" src="<?php echo($rel_path); ?>data/images/ketelsen fuslogo .png">
 		<p id="logotxt">Wer loslässt, hat die Hände frei.</p>
 	</div>
 	<div id="fusdaten">

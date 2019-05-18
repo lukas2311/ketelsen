@@ -1,3 +1,4 @@
+@charset "UTF-8";
 main {
   padding-top: 5%;
   background-color: #F3F2F2;
@@ -45,6 +46,320 @@ html {
 /VARIABLES									/
 /------------------------------------------*/
 /* ------------------- */
+@media screen and (min-width: 1200px) and (min-width: 1200px) {
+  #fuscontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-color: #277881;
+    padding-bottom: 1%;
+  }
+}
+@media screen and (min-width: 1200px) and (min-width: 1200px) {
+  #fuscontainer p {
+    font-size: 80%;
+    line-height: 80%;
+    color: white;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #fuscontainer h5 {
+    font-size: 100%;
+    color: white;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #fuscontainer #fuszeiten {
+    margin-left: 4%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #fuscontainer #fuslogo {
+    width: 15%;
+  }
+  #fuscontainer #fuslogo #logofus {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #divhaftung {
+    background-color: #1C555A;
+    color: white;
+  }
+  #divhaftung #haftung {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+  }
+  #divhaftung #haftung li {
+    list-style-type: none;
+  }
+  #divhaftung #haftung li a {
+    text-decoration: none;
+    position: relative;
+    padding: 10px 0;
+    line-height: 10px;
+    transition: color 0.1s, background-color 0.1s, padding 0.2s ease-in;
+    color: #3aafbc;
+  }
+  #divhaftung #haftung #asitemap, #divhaftung #haftung #akontaktfoot, #divhaftung #haftung #adatenschutzfoot, #divhaftung #haftung #akarriere {
+    margin-left: 5px;
+  }
+  #divhaftung #copyright {
+    padding-bottom: 1%;
+    color: lightgray;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  /* footer styles*/
+  /*footer styles ende */
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) and (min-width: 800px) and (max-width: 1200px) {
+  #fuscontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-color: #277881;
+    padding-bottom: 1%;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) and (min-width: 800px) and (max-width: 1200px) {
+  #fuscontainer p {
+    font-size: 80%;
+    line-height: 80%;
+    color: white;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) and (min-width: 800px) and (max-width: 1200px) {
+  #fuscontainer h5 {
+    font-size: 100%;
+    color: white;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) and (min-width: 800px) and (max-width: 1200px) {
+  #fuscontainer #fuszeiten {
+    margin-left: 4%;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) and (min-width: 800px) and (max-width: 1200px) {
+  #fuscontainer #fuslogo {
+    width: 20%;
+    margin-right: 3%;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  #fuscontainer #fuslogo #logofus {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  #fuscontainer #divhaftung {
+    background-color: #1C555A;
+    color: white;
+  }
+  #fuscontainer #divhaftung #haftung {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: c enter;
+    padding-top: 1%;
+  }
+  #fuscontainer #divhaftung #haftung li {
+    list-style-type: none;
+  }
+  #fuscontainer #divhaftung #haftung li a {
+    text-decoration: none;
+    color: white;
+  }
+  #fuscontainer #divhaftung #haftung #asitemap, #fuscontainer #divhaftung #haftung #akontaktfoot, #fuscontainer #divhaftung #haftung #adatenschutzfoot, #fuscontainer #divhaftung #haftung #akarriere {
+    margin-left: 5px;
+  }
+  #fuscontainer #divhaftung #copyright {
+    padding-bottom: 1%;
+    color: lightgray;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  /*fußzeile styles */
+  /* fußzeile styles Ende */
+}
+@media screen and (min-width: 400px) and (max-width: 800px) and (min-width: 400px) and (max-width: 800px) {
+  #fuscontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-color: #277881;
+    padding-bottom: 1%;
+    margin-top: 3%;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  #fuscontainer p {
+    font-size: 65%;
+    line-height: 80%;
+    color: white;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  #fuscontainer h5 {
+    font-size: 75%;
+    color: white;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  #fuscontainer #fuszeiten {
+    margin-left: 4%;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  #asitemap, #akontaktfoot, #adatenschutzfoot, #akarriere {
+    margin-left: 5px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  #divhaftung {
+    background-color: #1C555A;
+    color: white;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  #haftung {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+    padding-right: 5%;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  #haftung li {
+    list-style-type: none;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  #haftung a {
+    text-decoration: none;
+    color: white;
+    font-size: 80%;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  #copyright {
+    padding-bottom: 3%;
+    color: lightgray;
+    font-size: 80%;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  #fuszeiten {
+    margin-left: 4%;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  #logofus {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  #fuslogo {
+    width: 20%;
+    margin-right: 3%;
+  }
+}
+@media screen and (max-width: 400px) {
+  /* fußzeile styles */
+  #fuscontainer {
+    text-align: left;
+    background-color: #277881;
+    padding-bottom: 1%;
+    margin-top: 3%;
+  }
+
+  #fuscontainer p {
+    font-size: 65%;
+    line-height: 80%;
+    color: white;
+  }
+
+  h5 {
+    font-size: 75%;
+    color: white;
+  }
+
+  #asitemap, #akontaktfoot, #adatenschutzfoot, #akarriere {
+    margin-left: 5px;
+  }
+
+  #divhaftung {
+    background-color: #1C555A;
+    color: white;
+  }
+
+  #haftung {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+    padding-right: 5%;
+  }
+
+  #haftung li {
+    list-style-type: none;
+  }
+
+  #haftung a {
+    text-decoration: none;
+    color: white;
+    font-size: 55%;
+  }
+
+  #copyright {
+    padding-bottom: 3%;
+    color: lightgray;
+    font-size: 60%;
+  }
+
+  #fuszeiten, #fusdaten {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #logofus {
+    width: 100%;
+  }
+
+  #fuslogo {
+    width: 90%;
+    margin-right: 3%;
+  }
+
+  #logotxt {
+    text-align: center;
+  }
+
+  /* fußzeile Ende */
+}
+/* BREAKPOINTS */
+/*-----------------------------------------/
+/VARIABLES									/
+/------------------------------------------*/
+/* ------------------- */
+input:checked ~ ul {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
 header {
   width: 100%;
 }
@@ -262,12 +577,6 @@ header #burgermenu #menuToggle #menu .dropdown .dropdown-content .droppoint {
 @media screen and (max-width: 1200px) {
   header #burgermenu #menuToggle #menu .dropdown .dropdown-content a:active {
     color: grey;
-  }
-}
-@media screen and (max-width: 1200px) {
-  header #burgermenu #menuToggle input:checked ~ ul {
-    transform: scale(1, 1);
-    opacity: 1;
   }
 }
 @media screen and (min-width: 800px) and (max-width: 1200px) {

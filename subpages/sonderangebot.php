@@ -22,10 +22,10 @@
 				<p class="maintxt" id="toptxt">Verwöhnen Sie sich selbst und nutzen Sie unser beliebtes Angebot:</p>
 				<p class="maintxt">Sie kaufen ein Gutscheinheft über 6 Massagen, bezahlen aber nur 5 </p>
 				</div>
-				<img id="sonderimg" src="dateien/sonderangebote/image1.png" alt="Bild von einem Sonderangebot-Gutschein">	
+				<img id="sonderimg" src="<?php echo($rel_path); ?>data/sonderangebote/image1.png" alt="Bild von einem Sonderangebot-Gutschein">	
 			</div>
 			<div id="gutschcontainer">
-				<img id="gutschimg" alt="Bild von einem Geschenkgutschein" src="dateien/sonderangebote/image2.png">
+				<img id="gutschimg" alt="Bild von einem Geschenkgutschein" src="<?php echo($rel_path); ?>data/sonderangebote/image2.png">
 				<div>
 					<h3>Geschenkgutscheine</h3>				
 					<p id="gutschtxt">Verschenken Sie eine klassische Massage, Wellness, Hot Stone oder Fußreflexzonenmassage zum Geburtstag oder für einen besonderen Anlass.</p>

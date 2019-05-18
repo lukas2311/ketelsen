@@ -1,3 +1,12 @@
+@import 'variables';
+
+
+input:checked ~ ul {
+					transform: scale(1.0, 1.0);
+					opacity: 1;
+				}
+
+
 header {
 	width: 100%;
 	a {
@@ -56,7 +65,7 @@ header {
 	#burgermenu {
 		@media screen and (min-width: $smalldesktop) {
 			display: none;
-		}
+		}				
 		#menuToggle {
 			@media screen and (max-width: $smalldesktop) {
 				display: block;
@@ -73,8 +82,8 @@ header {
 					text-align: left;
 					margin-left: 40px;
 				}		
-			}	
-			#menu {
+			}				
+			#menu {				
 				@media screen and (max-width: $smalldesktop) {
 					padding: 50px;
 					position: absolute;
@@ -89,7 +98,7 @@ header {
 			  		transform-origin: 0% 0%;
 			  		transform: translate(100%, 0);  
 			  		transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-				}
+				}				
 				li {
 					@media screen and (max-width: 400px) {
 						padding: 10px;
@@ -190,12 +199,7 @@ header {
 					} 		
 				}
 			}
-			input:checked ~ ul {
-				@media screen and (max-width: $smalldesktop) {
-					transform: scale(1.0, 1.0);
-				  	opacity: 1;
-				}
-			}
+			
 			input {
 				@media screen and (min-width: 800px) and (max-width: $smalldesktop) {		
 			  		width: 110%;
@@ -271,7 +275,7 @@ header {
 				}
 			}
 		}
-	}
+	}	
 	#navigation {
 		@media screen and (min-width: $smalldesktop) {
 			display: flex;
@@ -408,5 +412,6 @@ header {
 		    	}
 	    	}	    		    	  
 	    } 
-	}		
+	}	
+		
 }

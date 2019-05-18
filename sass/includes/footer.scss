@@ -1,5 +1,4 @@
-@media screen and (min-width : 1200px ){	
-	/* footer styles */
+@media screen and (min-width: 1200px){	
 	#fuscontainer {
 		@media screen and (min-width : 1200px ){
 		display: flex;
@@ -15,6 +14,7 @@
 				line-height: 80%;
 				color: white;
 			}
+		}
 		h5 {
 			font-size: 100%;
 			color: white;
@@ -27,33 +27,37 @@
 			#logofus {
 				width: 70%;
 			}
-		}
-		#divhaftung {
-			background-color: #1C555A;
-			color: white;
-			#haftung {
-				margin-top: 0;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				padding-top: 1%;
-				li {
-					list-style-type: none;
-					a {
-						text-decoration: none;
-					}
-				}	
-				#asitemap, #akontaktfoot, #adatenschutzfoot, #akarriere {
-					margin-left: 5px;
+		}		
+	}
+	#divhaftung {
+		background-color: #1C555A;
+		color: white;
+		#haftung {
+			margin-top: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding-top: 1%;
+			li {
+				list-style-type: none;
+				a {
+					text-decoration: none;
+			    	position: relative;
+			    	padding: 10px 0;
+			    	line-height: 10px;
+			    	transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+			   		color: #3aafbc;
 				}
+			}	
+			#asitemap, #akontaktfoot, #adatenschutzfoot, #akarriere {
+				margin-left: 5px;
 			}
-			#copyright {
-				padding-bottom: 1%;
-				color: lightgray;
-			}
+		}
+		#copyright {
+			padding-bottom: 1%;
+			color: lightgray;
 		}
 	}
-/*footer styles Ende */ 
 }
 @media screen and ( min-width : 800px ) and (max-width : 1200px ){	
 /* footer styles*/

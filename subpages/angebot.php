@@ -23,7 +23,7 @@
 					<div>
 						<p class="summtxt">Die Physiotherapie verfolgt das Ziel, die gestörte Beweglichkeit und Funktionsstörungen zu verbessern oder wiederherzustellen.</p>							
 					</div>
-					<img id="physioimg" src="dateien/angebotbilder/IMG_4436.jpg" alt="Bild von Physiotherapie">
+					<img id="physioimg" src="<php echo($rel_path); ?>data/angebotbilder/IMG_4436.jpg" alt="Bild von Physiotherapie">
 				</div>	
 			</div>	
 			<div class="container">
