@@ -2,5 +2,6 @@
 
 Website relaunch Ketelsen 2019
 
-
-[ ] Burgermenü fixen
+[  ] Header breite auf 100% setzten
+[  ] Burgermenü fixen
+[  ] mobiles Menü abstände verringern 
