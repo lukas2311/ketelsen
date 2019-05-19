@@ -8,6 +8,29 @@
 		background-color: #277881;
 		padding-bottom: 1%;
 		}
+		@medias creen and ( min-width : 800px ) and (max-width : 1200px ){	
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: left;
+			background-color: #277881;
+			padding-bottom: 1%
+		}
+		@media screen and (min-width: 400px) and (max-width: 800px) {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: left;
+			background-color: #277881;
+			padding-bottom: 1%;
+			margin-top: 3%;
+		}
+		@media screen and (max-width: 400px) {
+			text-align: left;
+			background-color: #277881;
+			padding-bottom: 1%;
+			margin-top: 3%;
+		}
 		p  {
 			@media screen and (min-width : 1200px ){
 				font-size: 80%;
@@ -97,32 +120,33 @@
 				width: 100%;	
 			}
 		}
-		#divhaftung {
-			background-color: #1C555A;
-			color: white;
-			#haftung {
-				margin-top: 0;
-				display: flex;
-				align-items: center;
-				justify-content: c enter;
-				padding-top: 1%;
-				li {
-					list-style-type: none;
-					a {
-						text-decoration: none;
-						color: white;
-					}	
-				}
-				#asitemap, #akontaktfoot, #adatenschutzfoot, #akarriere {
-					margin-left: 5px;
-				}
-			}
-			#copyright {
-				padding-bottom: 1%;
-				color: lightgray;
-			}	
-		}
 	}
+	#divhaftung {
+		background-color: #1C555A;
+		color: white;
+		#haftung {
+			margin-top: 0;
+			display: flex;
+			align-items: center;
+			justify-content: c enter;
+			padding-top: 1%;
+			li {
+				list-style-type: none;
+				a {
+					text-decoration: none;
+					color: white;
+				}	
+			}
+			#asitemap, #akontaktfoot, #adatenschutzfoot, #akarriere {
+				margin-left: 5px;
+			}
+		}
+		#copyright {
+			padding-bottom: 1%;
+			color: lightgray;
+		}	
+	}
+	
 /*footer styles ende */
 }
 @media screen and (min-width: 400px) and (max-width: 800px) {
@@ -149,109 +173,112 @@
 		#fuszeiten {
 			margin-left: 4%;
 		}
-	}
-	#asitemap, #akontaktfoot, #adatenschutzfoot, #akarriere {
-		margin-left: 5px;
+		#fuslogo {
+			width: 20%;
+			margin-right: 3%;
+			#logofus {
+				width: 100%;		
+			}
+		}
 	}
 	#divhaftung {
 		background-color: #1C555A;
 		color: white;
-	}
-	#haftung {
-		margin-top: 0;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding-top: 1%;
-		padding-right: 5%;
-	}
-	#haftung li {
-		list-style-type: none;
-	}
-	#haftung a {
-		text-decoration: none;
-		color: white;
-		font-size: 80%;
-	}	
-	#copyright {
-		padding-bottom: 3%;
-		color: lightgray;
-		font-size: 80%;
-	}	
-	#fuszeiten {
-		margin-left: 4%;
-	}
-	#logofus {
-		width: 100%;		
-	}
-	#fuslogo {
-		width: 20%;
-		margin-right: 3%;
+		#haftung {
+			margin-top: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding-top: 1%;
+			padding-right: 5%;
+			li {
+				list-style-type: none;
+				a {
+					text-decoration: none;
+					color: white;
+					font-size: 80%;
+				}	
+			}
+			#asitemap, #akontaktfoot, #adatenschutzfoot, #akarriere {
+				margin-left: 5px;
+			}
+		}
+		#copyright {
+			padding-bottom: 3%;
+			color: lightgray;
+			font-size: 80%;
+		}	
 	}
 /* fußzeile styles Ende */
 }
 @media screen and (max-width: 400px) {
 /* fußzeile styles */
 	#fuscontainer {		
-		text-align: left;
-		background-color: #277881;
-		padding-bottom: 1%;
-		margin-top: 3%;
-	}
-	#fuscontainer p  {
-		font-size: 65%;
-		line-height: 80%;
-		color: white;
-	}
-	h5 {
-		font-size: 75%;
-		color: white;
-	}
-	#asitemap, #akontaktfoot, #adatenschutzfoot, #akarriere {
-		margin-left: 5px;
+		@media screen and (max-width: 400px) {
+			text-align: left;
+			background-color: #277881;
+			padding-bottom: 1%;
+			margin-top: 3%;
+		}
+		p  {
+			font-size: 65%;
+			line-height: 80%;
+			color: white;
+		}
+		h5 {
+			font-size: 75%;
+			color: white;
+		}
+		#fuszeiten {
+			display:flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 50%;
+			margin-left: 0;
+			margin-right: 0;
+		}
+		#fusdaten {
+			display:flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 50%;
+			margin-left: 0;
+			margin-right: 0;
+		}
+		#fuslogo {
+			width: 90%;
+			margin-right: 3%;
+			#logofus {
+				width: 100%;		
+			}
+			#logotxt {
+				text-align: center;
+			}
+		}
 	}
 	#divhaftung {
 		background-color: #1C555A;
 		color: white;
-	}
-	#haftung {
-		margin-top: 0;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding-top: 1%;
-		padding-right: 5%;
-	}
-	#haftung li {
-		list-style-type: none;
-	}
-	#haftung a {
-		text-decoration: none;
-		color: white;
-		font-size: 55%;
-	}	
-	#copyright {
-		padding-bottom: 3%;
-		color: lightgray;
-		font-size: 60%;
-	}	
-	#fuszeiten, #fusdaten {
-		display:flex;
-		align-items: center;
-		justify-content: center;
-		font-size: 50%;
-		margin-left: 0;
-		margin-right: 0;
-	}
-	#logofus {
-		width: 100%;		
-	}
-	#fuslogo {
-		width: 90%;
-		margin-right: 3%;
-	}
-	#logotxt {
-		text-align: center;
+		#haftung {
+			margin-top: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding-top: 1%;
+			padding-right: 5%;
+			li {
+				list-style-type: none;
+				a {
+					text-decoration: none;
+					color: white;
+					font-size: 55%;
+				}	
+			}
+			#asitemap, #akontaktfoot, #adatenschutzfoot, #akarriere {
+				margin-left: 5px;
+			}
+		}
+
 	}
 /* fußzeile Ende */	
 }
