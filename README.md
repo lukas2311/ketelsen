@@ -6,4 +6,4 @@ Website relaunch Ketelsen 2019
 [  ] Burgermenü fixen<br/>
 [  ] mobiles Menü abstände verringern<br/> 
 [  ] Disclaimer einfügen<br/> 
-
+[  ] SSL Richtig konfigurieren (htaccess)</br>
